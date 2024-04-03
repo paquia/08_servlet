@@ -1,4 +1,4 @@
-package com.ohgiraffers.model.service;
+package com.ohgiraffers.menu.model.service;
 
 public class MenuPriceCalculator {
     public int calcOrderPrice(String menuName, int amount) {

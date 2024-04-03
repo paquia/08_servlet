@@ -27,6 +27,7 @@ public class RequestHeaderPrintServlet extends HttpServlet {
         Enumeration<String> headerNames =  req.getHeaderNames();
         while (headerNames.hasMoreElements()) {
             System.out.println(headerNames.nextElement());
+
         }
 
         // accept header : 클라이언트에서 웹서버로 request 할 시 요청할 수 있는 메세지에 담기는 헤더
